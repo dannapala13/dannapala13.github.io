@@ -2,57 +2,180 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultura Digital</title>
+    <title>Cultura Digital - Instituto Libertad</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+            color: #333;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            line-height: 1.6;
         }
-        header {
-            background: #333;
-            color: white;
-            padding: 10px 0;
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            max-width: 1000px;
+            margin: 0 auto;
             padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 50px 0 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .intro {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #3498db;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin: 20px 0 10px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #eaf2f8;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #2980b9;
         }
         footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
+            background-color: #2c3e50;
             color: white;
-            margin-top: 20px;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Cultura Digital</h1>
-    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de</a>
+        <a href="tareas.html">Tareas</a>
+        <a href="recursos.html">Recursos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
     <div class="container">
-        <h2>¿Qué es la Cultura Digital?</h2>
-        <p>La cultura digital se refiere al conjunto de conocimientos, prácticas, costumbres y valores que surgen con el uso de las tecnologías digitales en la sociedad.</p>
-        
-        <h2>Elementos clave de la Cultura Digital</h2>
-        <ul>
-            <li>Acceso a la información</li>
-            <li>Interacción en redes sociales</li>
-            <li>Innovación tecnológica</li>
-            <li>Educación digital</li>
-            <li>Seguridad y privacidad</li>
-        </ul>
+        <header>
+            <h1>Cultura Digital I - Instituto Libertad</h1>
+            <p class="intro">Explorando los fundamentos de la tecnología para el siglo XXI</p>
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tecnología digital" class="hero-image">
+        </header>
+
+        <div class="section">
+            <h2>¿Qué es la Cultura Digital?</h2>
+            <p>La cultura digital se refiere al conjunto de conocimientos, habilidades y valores necesarios para desenvolverse de manera efectiva y responsable en el entorno tecnológico actual.</p>
+            
+            <div class="highlight">
+                <p>En este curso aprenderás los fundamentos de la informática, el uso responsable de internet, herramientas ofimáticas y principios de programación básica.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Temas principales del curso</h2>
+            
+            <h3>Primer Parcial</h3>
+            <ul>
+                <li><strong>Conceptos básicos de informática:</strong> Hardware, software y sistemas operativos</li>
+                <li><strong>Ciudadanía digital:</strong> Seguridad, ética y responsabilidad en línea</li>
+                <li><strong>Internet:</strong> TICS, navegadores, buscadores y correo electrónico</li>
+            </ul>
+            
+            <h3>Segundo Parcial</h3>
+            <ul>
+                <li><strong>Redes sociales y la nube:</strong> Uso profesional y almacenamiento en la nube</li>
+                <li><strong>Procesadores de texto:</strong> Word y herramientas alternativas</li>
+                <li><strong>Presentadores digitales:</strong> PowerPoint, Google Slides y Canva</li>
+                <li><strong>Hojas de cálculo:</strong> Excel y Google Sheets</li>
+            </ul>
+            
+            <h3>Tercer y Cuarto Parcial</h3>
+            <ul>
+                <li><strong>Algoritmos y diagramas de flujo:</strong> Metodología para resolver problemas</li>
+                <li><strong>Pseudocódigo:</strong> Estructuras de control y operadores</li>
+                <li><strong>Software de apoyo:</strong> Herramientas para diagramación y pruebas</li>
+            </ul>
+            
+            <a href="recursos.html" class="btn">Ver recursos completos</a>
+        </div>
+
+        <div class="section">
+            <h2>Importancia de la Cultura Digital</h2>
+            <p>En el mundo actual, dominar las competencias digitales es esencial para:</p>
+            <ul>
+                <li>Acceder a oportunidades educativas y laborales</li>
+                <li>Comunicarse efectivamente en entornos profesionales</li>
+                <li>Protegerse de riesgos en línea como el robo de identidad o ciberacoso</li>
+                <li>Participar activamente en la sociedad digital</li>
+                <li>Desarrollar pensamiento lógico y capacidad de resolución de problemas</li>
+            </ul>
+        </div>
     </div>
+
     <footer>
-        <p>&copy; 2025 Cultura Digital - Todos los derechos reservados</p>
+        <p>&copy; 2023 Cultura Digital I - Instituto Libertad. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
